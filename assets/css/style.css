@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ropa Sans',sans-serif;
+    font-family: 'Sora',sans-serif;
 }
 html{
     height: 100%;
@@ -14,6 +16,7 @@ body {
 
 }
 .wraper{
+    text-align: center;
     width: 100%;
 }
 header{
@@ -37,4 +40,24 @@ header a:hover{
     margin: 20px auto;
     border-bottom: 20px;
     height: 80%;
+}
+.info-mint{
+justify-content: space-around;
+display: flex;
+padding: 50px 30px ;
+}
+.text-info-mint{
+   padding: 10px 30px;
+   color: white;
+}
+button{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+   /* background: rgb(34, 193, 195);
+    background: linear-gradient(0deg,rgba(34,193,195,1) 0%,rgba(253,187,45,1) 100%);*/
 }
