@@ -26,7 +26,7 @@ if(window.ethereum){
 
 
 
-            const sign = await ethereum.request({method:'personal_sign',params:['Mint no website https://dankicode.com',account]});
+            const sign = await ethereum.request({method:'personal_sign',params:['Mint no website https://agroexecute.contweb.net.br/',account]});
 
             //A partir daqui chamar contrato inteligente.
 
